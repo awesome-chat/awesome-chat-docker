@@ -5,7 +5,7 @@ WORKDIR /src
 # is git available?
 RUN git clone https://github.com/wengwengweng/awesome-chat-web.git
 
-RUN cd awesome-chat-web
+WORKDIR /src/awesome-chat-web
 
 RUN npm install --registry=https://registry.npm.taobao.org
 

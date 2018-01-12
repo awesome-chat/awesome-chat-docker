@@ -4,9 +4,9 @@ services:
     build: .
     ports:
      - "3000:3000"
-  redis:
-    image: "redis"
   db:
-    image: mongo
+    image: "mongo"
+    volumes:
+      - "/tmp/db:/data/db"
     ports:
       - "27017:27017"
