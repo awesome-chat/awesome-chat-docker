@@ -1,5 +1,7 @@
 FROM node:9.4.0
 
+COPY /home/weng/aweasome-chat/awesome-chat-web /usr/src/aweasome-chat
+
 WORKDIR /usr/src/aweasome-chat
 
 RUN npm install --registry=https://registry.npm.taobao.org
