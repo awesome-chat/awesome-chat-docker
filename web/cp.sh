@@ -1,0 +1,1 @@
+cp -r /home/weng/aweasome-chat/awesome-chat-web .
