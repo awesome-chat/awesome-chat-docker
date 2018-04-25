@@ -5,4 +5,4 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - "/var/logs:/var/logs"
+      - "/home/weng/aweasome-chat/awesome-chat-web:/src/awesome-chat-web"
