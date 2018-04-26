@@ -8,4 +8,4 @@ services:
     volumes:
       - "/tmp/db/mysql:/var/lib/mysql"
     ports:
-      - "3306:3306"
+      - "3306:80"
